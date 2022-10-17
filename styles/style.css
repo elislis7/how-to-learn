@@ -37,14 +37,14 @@
   display: flex;
   align-items: center;
   width: 730px;
+  margin: 0;
   margin-left: 64px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
   position: relative;
   z-index: 2;
-  margin: 0;
-  left: 64px;
+
 }
 
 .header__subtitle {
@@ -124,7 +124,7 @@
   margin: 0;
 }
 
-.two-columns__paragraph:not(last-child) {
+.two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -142,8 +142,7 @@
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
-  margin-bottom: 20px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .section-subtitle {
@@ -154,7 +153,6 @@
   font-weight: normal;
   line-height: 34px;
   margin: 0 auto;
-  margin-top: 20px;
 }
 
 .table {
@@ -174,8 +172,8 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
-  margin-bottom: 20px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .table__text {
@@ -216,10 +214,9 @@
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
-  margin-bottom: 70px;
+  margin: 0 auto 70px;
   position: relative;
   z-index: 1;
-  margin: 0 auto;
 }
 
 .feynman__subtitle {
@@ -228,9 +225,8 @@
   line-height: 51px;
   text-align: center;
   position: relative;
-  z-index: 1;
   margin: 0 auto;
-  top: 70px;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -253,7 +249,7 @@
   position: relative;
 }
 
-.kaufman_section-title__theme_dark {
+.section-title__theme_dark {
   width: 60%;
   color: white;
   font-size: 60px;
@@ -263,7 +259,7 @@
   margin: 0 auto;
 }
 
-.kaufman_section-subtitle__theme_dark {
+.section-subtitle__theme_dark {
   width: 60%;
   color: white;
   font-size: 24px;
@@ -274,7 +270,7 @@
   margin-top: 20px;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -319,7 +315,7 @@
   margin: auto;
 }
 
-.footer__columns_footer__column_content_copyright {
+.footer__column_content-copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -331,22 +327,20 @@
 }
 
 .footer__author {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0 18px;
   color: white;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  margin: 0;
 }
 
 .footer__column-heading {
   color: white;
+  margin: 0;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  margin: 0;
 }
 
 .footer__column-links {
