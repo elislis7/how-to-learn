@@ -12,7 +12,3 @@
 .khan__buy-link:hover {
   opacity: .5;
 }
-
-.khan__buy-link > a {
-  margin: 0;
-}

@@ -3,6 +3,5 @@
   gap: 20px;
   display: grid;
   grid-template-columns: 515px auto;
-  margin-bottom: -50px;
   justify-content: center;
 }
