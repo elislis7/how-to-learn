@@ -39,7 +39,7 @@
 @import url(./blocks/video/video.css);
 @import url(./blocks/video/__iframes/video__iframes.css);
 @import url(./blocks/video/__iframe/video__iframe.css);
-@import url(./blocks/video/__iframe/_video/video__iframe_video.css);
+@import url(./blocks/video/__iframe-video/video__iframe-video.css);
 
 @import url(./blocks/oakley/oakley.css);
 
@@ -76,7 +76,6 @@
 @import url(./blocks/resources/resources.css);
 @import url(./blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(./blocks/resources/__link/resources__link.css);
-@import url(./blocks/resources/__link/_icon/resources__link_icon.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__columns/footer__columns.css);
