@@ -1,0 +1,11 @@
+.connect__textarea {
+  margin-bottom: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline:none;
+}
+
+.connect__textarea:focus {
+  border: 1px solid #2f80ed;
+}

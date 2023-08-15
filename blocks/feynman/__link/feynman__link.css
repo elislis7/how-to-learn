@@ -9,6 +9,7 @@
   color: #2f80ed;
   transition-property: opacity;
   transition-duration: 1s;
+  z-index: 2;
 }
 
 .feynman__link:hover {

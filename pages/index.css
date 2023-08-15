@@ -78,6 +78,12 @@
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__link-img/resources__link-img.css);
 
+@import url(../blocks/connect/connect.css);
+@import url(../blocks/connect/__form/connect__form.css);
+@import url(../blocks/connect/__input/connect__input.css);
+@import url(../blocks/connect/__textarea/connect__textarea.css);
+@import url(../blocks/connect/__button/connect__button.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);

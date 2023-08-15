@@ -1,0 +1,16 @@
+.connect__input {
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.connect__input:last-of-type {
+  margin-bottom: 20px;
+}
+
+.connect__input:focus {
+  border: 1px solid #2f80ed;
+}
