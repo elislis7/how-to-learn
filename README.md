@@ -1,4 +1,8 @@
-# "Научиться учиться" - первая проектная работа
+<h1 align="center">"Научиться учиться"</h1>
+<h2 align="center">Первая проектная работа</h2>
+
+<p align="center">
+<img src="./images/readme_imaged/странца.png" width="80%"></p>
 
 **Описание проекта**
 
@@ -9,9 +13,10 @@
 ## Используемые технологии
 HTML5 | CSS3 | БЭМ - файловая структура в соответствии с Nested БЭМ | flexBox | API Youtube | iframe и @keyframes | animation and transformation
 
-**GitHub Pages**
+## Ссылка на сайт:
 
 * [Ссылка GitHub Pages](https://elislis7.github.io/how-to-learn/)
+
 
 **План по доработке проекта**
 
